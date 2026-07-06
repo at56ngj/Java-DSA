@@ -19,6 +19,7 @@ I will keep updating this repository as I learn and solve problems.
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/at56ngj/Java-DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
 ## Two Pointers
 |  |
@@ -31,5 +32,6 @@ I will keep updating this repository as I learn and solve problems.
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/at56ngj/Java-DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
