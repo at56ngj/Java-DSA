@@ -29,6 +29,7 @@ I will keep updating this repository as I learn and solve problems.
 ## Stack
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/at56ngj/Java-DSA/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
 ## Recursion
 |  |
@@ -40,4 +41,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/at56ngj/Java-DSA/tree/master/0002-add-two-numbers) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/at56ngj/Java-DSA/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
