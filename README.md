@@ -29,6 +29,7 @@ I will keep updating this repository as I learn and solve problems.
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/at56ngj/Java-DSA/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
@@ -54,4 +55,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
