@@ -32,6 +32,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0020-valid-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/at56ngj/Java-DSA/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
+| [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
 ## Recursion
 |  |
@@ -50,10 +51,12 @@ I will keep updating this repository as I learn and solve problems.
 ## Array
 |  |
 | ------- |
+| [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
 ## String
 |  |
