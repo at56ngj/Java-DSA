@@ -31,6 +31,7 @@ I will keep updating this repository as I learn and solve problems.
 | ------- |
 | [0020-valid-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/at56ngj/Java-DSA/tree/master/0155-min-stack) |
+| [0232-implement-queue-using-stacks](https://github.com/at56ngj/Java-DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
 | [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
@@ -48,6 +49,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/at56ngj/Java-DSA/tree/master/0155-min-stack) |
+| [0232-implement-queue-using-stacks](https://github.com/at56ngj/Java-DSA/tree/master/0232-implement-queue-using-stacks) |
 ## Array
 |  |
 | ------- |
@@ -62,4 +64,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/0020-valid-parentheses) |
+## Queue
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/at56ngj/Java-DSA/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
