@@ -26,6 +26,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
+| [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
 ## Stack
 |  |
 | ------- |
@@ -36,6 +37,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
+| [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/at56ngj/Java-DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/at56ngj/Java-DSA/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Recursion
@@ -71,6 +73,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/0020-valid-parentheses) |
+| [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/at56ngj/Java-DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Queue
 |  |
@@ -80,4 +83,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
+## Simulation
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
 <!---LeetCode Topics End-->
