@@ -42,6 +42,7 @@ I will keep updating this repository as I learn and solve problems.
 | [1021-remove-outermost-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/at56ngj/Java-DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/at56ngj/Java-DSA/tree/master/1381-design-a-stack-with-increment-operation) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Recursion
 |  |
 | ------- |
@@ -79,6 +80,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
 | [1021-remove-outermost-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/at56ngj/Java-DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Queue
 |  |
 | ------- |
