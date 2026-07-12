@@ -68,6 +68,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/at56ngj/Java-DSA/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/at56ngj/Java-DSA/tree/master/0739-daily-temperatures) |
+| [1331-rank-transform-of-an-array](https://github.com/at56ngj/Java-DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/at56ngj/Java-DSA/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Monotonic Stack
 |  |
@@ -94,6 +95,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
+| [1331-rank-transform-of-an-array](https://github.com/at56ngj/Java-DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Simulation
 |  |
 | ------- |
@@ -107,6 +109,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
+| [1331-rank-transform-of-an-array](https://github.com/at56ngj/Java-DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Counting
 |  |
 | ------- |
