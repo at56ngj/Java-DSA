@@ -26,6 +26,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/at56ngj/Java-DSA/tree/master/0234-palindrome-linked-list) |
+| [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
 ## Stack
 |  |
@@ -62,6 +63,7 @@ I will keep updating this repository as I learn and solve problems.
 ## Array
 |  |
 | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/at56ngj/Java-DSA/tree/master/0682-baseball-game) |
@@ -88,10 +90,19 @@ I will keep updating this repository as I learn and solve problems.
 ## Hash Table
 |  |
 | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 ## Simulation
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/at56ngj/Java-DSA/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
+## Binary Search
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
+## Sorting
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
