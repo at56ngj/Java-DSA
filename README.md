@@ -79,6 +79,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/0020-valid-parentheses) |
+| [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
 | [0844-backspace-string-compare](https://github.com/at56ngj/Java-DSA/tree/master/0844-backspace-string-compare) |
 | [1021-remove-outermost-parentheses](https://github.com/at56ngj/Java-DSA/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/at56ngj/Java-DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -91,6 +92,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
+| [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 ## Simulation
 |  |
@@ -105,4 +107,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
