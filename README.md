@@ -114,4 +114,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/at56ngj/Java-DSA/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
