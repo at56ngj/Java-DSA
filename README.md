@@ -64,6 +64,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/at56ngj/Java-DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
@@ -94,6 +95,7 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/at56ngj/Java-DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
@@ -110,11 +112,13 @@ I will keep updating this repository as I learn and solve problems.
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [1331-rank-transform-of-an-array](https://github.com/at56ngj/Java-DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
 ## Enumeration
 |  |
@@ -124,4 +128,20 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/at56ngj/Java-DSA/tree/master/0128-longest-consecutive-sequence) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
