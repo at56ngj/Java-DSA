@@ -54,11 +54,13 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/at56ngj/Java-DSA/tree/master/0002-add-two-numbers) |
+| [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
 ## Design
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/at56ngj/Java-DSA/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/at56ngj/Java-DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [1381-design-a-stack-with-increment-operation](https://github.com/at56ngj/Java-DSA/tree/master/1381-design-a-stack-with-increment-operation) |
 ## Array
 |  |
@@ -66,6 +68,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0128-longest-consecutive-sequence](https://github.com/at56ngj/Java-DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/at56ngj/Java-DSA/tree/master/0682-baseball-game) |
@@ -97,6 +100,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0128-longest-consecutive-sequence](https://github.com/at56ngj/Java-DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
+| [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 | [1331-rank-transform-of-an-array](https://github.com/at56ngj/Java-DSA/tree/master/1331-rank-transform-of-an-array) |
@@ -144,4 +148,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
