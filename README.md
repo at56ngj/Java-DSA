@@ -69,6 +69,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0347-top-k-frequent-elements](https://github.com/at56ngj/Java-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
+| [0454-4sum-ii](https://github.com/at56ngj/Java-DSA/tree/master/0454-4sum-ii) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/at56ngj/Java-DSA/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/at56ngj/Java-DSA/tree/master/0682-baseball-game) |
@@ -102,6 +103,7 @@ I will keep updating this repository as I learn and solve problems.
 | [0349-intersection-of-two-arrays](https://github.com/at56ngj/Java-DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/at56ngj/Java-DSA/tree/master/0383-ransom-note) |
+| [0454-4sum-ii](https://github.com/at56ngj/Java-DSA/tree/master/0454-4sum-ii) |
 | [0496-next-greater-element-i](https://github.com/at56ngj/Java-DSA/tree/master/0496-next-greater-element-i) |
 | [1331-rank-transform-of-an-array](https://github.com/at56ngj/Java-DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Simulation
