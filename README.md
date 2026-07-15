@@ -55,6 +55,7 @@ I will keep updating this repository as I learn and solve problems.
 | ------- |
 | [0002-add-two-numbers](https://github.com/at56ngj/Java-DSA/tree/master/0002-add-two-numbers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/at56ngj/Java-DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Design
 |  |
 | ------- |
@@ -154,4 +155,8 @@ I will keep updating this repository as I learn and solve problems.
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/at56ngj/Java-DSA/tree/master/0380-insert-delete-getrandom-o1) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/at56ngj/Java-DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
