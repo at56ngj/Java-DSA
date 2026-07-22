@@ -10,37 +10,42 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) return true;
-        
-        // Step 1: Find the middle of the linked list
-        ListNode slow = head;
-        ListNode fast = head;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+        ListNode fast=head;//
+        ListNode mid=head;
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            mid=mid.next;
         }
-        
-        // Step 2: Reverse the second half of the list
-        ListNode prev = null;
-        ListNode curr = slow;
-        while (curr != null) {
-            ListNode nextNode = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = nextNode;
+
+        ListNode prev=null;
+        ListNode curr=mid;
+        ListNode next=mid;
+        while(curr!=null){
+            next=next.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
         }
-        
-        // Step 3: Compare the first half and the reversed second half
-        ListNode firstHalf = head;
-        ListNode secondHalf = prev; // 'prev' is now the head of the reversed half
-        while (secondHalf != null) {
-            if (firstHalf.val != secondHalf.val) {
+
+        ListNode head2=prev;//
+        ListNode head1=head;
+        while(head1!=null && head2!=null){
+            if(head1.val==head2.val){
+                head1=head1.next;
+                head2=head2.next;
+            }
+            else{
                 return false;
             }
-            firstHalf = firstHalf.next;
-            secondHalf = secondHalf.next;
         }
-        
         return true;
+        
+
+
+        
     }
 }
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
