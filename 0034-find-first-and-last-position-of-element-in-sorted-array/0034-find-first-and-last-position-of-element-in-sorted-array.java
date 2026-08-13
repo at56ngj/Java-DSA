@@ -1,36 +1,27 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        int left=0;
-        int right=nums.length-1;
-        int left1=0;
-        int left2=0;
-        int ans[]=new int[2];
-        while(left<right){
-            if(nums[left]!=target && nums[right]!=target){
-                left++;
-                right--;
-            }
-            else if(nums[left]==target && nums[right]!=target){
-                left1=left;
-                right--;
-            }
-            else if(nums[right]==target && nums[left]!=target){
-                left2=right;
-                left++;
-            }
-            else{
-                left1=left;
-                left2=right;
-                ans[0]=left1;
-                ans[1]=left2;
-                return ans;
+        int first = findBound(nums, target, true);
+        if (first == -1) return new int[]{-1, -1};
+        int last = findBound(nums, target, false);
+        return new int[]{first, last};
+    }
+
+    private int findBound(int[] nums, int target, boolean findFirst) {
+        int left = 0, right = nums.length - 1;
+        int result = -1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                result = mid;
+                if (findFirst) right = mid - 1;   // left side me aur dhoondo
+                else left = mid + 1;              // right side me aur dhoondo
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
-               ans[0]=-1;
-                ans[1]=-1;
-                return ans;
-        
-        
+        return result;
     }
 }
 
