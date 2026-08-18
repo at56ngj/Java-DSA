@@ -1,27 +1,27 @@
 class MinStack {
-    Stack<Integer> stack;
-    Stack<Integer> minstack;
+    public Stack <Integer> stack=new Stack<>();
+    public Stack <Integer> minstack=new Stack<>();
 
     public MinStack() {
-        stack=new Stack<>();
-        minstack=new Stack<>();
+
         
     }
     
     public void push(int value) {
         stack.push(value);
-        if(minstack.isEmpty()){
+        if(minstack.isEmpty() || value<=minstack.peek()){
             minstack.push(value);
-        }
-        else{
-            minstack.push(Math.min(value,minstack.peek()));
+        }else{
+            minstack.push(minstack.peek());
         }
         
     }
     
     public void pop() {
         stack.pop();
-        minstack.pop(); 
+        minstack.pop();
+
+        
     }
     
     public int top() {
@@ -43,3 +43,7 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
