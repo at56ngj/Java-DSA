@@ -1,26 +1,29 @@
 class Solution {
     public boolean isValid(String s) {
-        Stack <Character> stack=new Stack<>();
-        for(char ch: s.toCharArray()){
-            if(ch=='(' || ch=='{' || ch=='['){
-                stack.push(ch);
+        Stack <Character> st=new Stack<>();
+        for(char ch:s.toCharArray()){
+            if(ch=='(' || ch=='{'|| ch=='['){
+                st.push(ch);
             }
             else{
-                if(stack.isEmpty()){
+                if(st.isEmpty()){
                     return false;
                 }
-                char top=stack.pop();
-                if(ch==')'&& top!='(' || ch=='}' && top!='{' || ch==']' && top!='['){
-                    return false;
+                else{
+                    char top=st.pop(); //ye uppar wala elemnt hi hai.and ye elemnt pop bhi ho jayega.
+                    if(ch==')' && top!='(')return false;
+                    if(ch==']' && top!='[')return false;
+                    if(ch=='}' && top!='{')return false;
+                    
                 }
             }
+            
         }
-        return stack.isEmpty();
-
-
-
-        
-
+      return st.isEmpty();  
         
     }
 }
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
