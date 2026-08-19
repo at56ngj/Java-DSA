@@ -1,37 +1,40 @@
 class MyQueue {
-    private Stack<Integer> input;
-    private Stack<Integer> output;
+    Stack <Integer> instack=new Stack<>();
+    Stack <Integer> outstack=new Stack<>();
 
     public MyQueue() {
-        input=new Stack<>();
-        output=new Stack<>();
-
-   
+        
+        
     }
     
     public void push(int x) {
-        input.push(x);
+        instack.push(x);
         
     }
     
     public int pop() {
-        peek();
-        return output.pop();
+        
+       if(outstack.isEmpty()){
+        while(!instack.isEmpty()){
+            outstack.push(instack.pop());
+        }
+       }
+       return outstack.pop();
+
         
     }
     
     public int peek() {
-        if(output.isEmpty()){
-            while(!input.isEmpty()){
-                output.push(input.pop());
-            }
+       if(outstack.isEmpty()){
+        while(!instack.isEmpty()){
+            outstack.push(instack.pop());
         }
-        return output.peek();
-        
+       }
+        return outstack.peek();
     }
     
     public boolean empty() {
-        return input.isEmpty() && output.isEmpty();
+        return instack.isEmpty() && outstack.isEmpty();
         
     }
 }
@@ -44,3 +47,7 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
