@@ -1,21 +1,28 @@
 class Solution {
     public String removeDuplicates(String s) {
+        StringBuilder str=new StringBuilder();
         Stack <Character> stack=new Stack<>();
-
-        for(int i=0;i<s.length();i++){
-            char c=s.charAt(i);
-            if(!stack.isEmpty() && stack.peek()==c){
-                stack.pop();
+        int i=0;
+        char ch[]=s.toCharArray();
+        while(i<ch.length){
+            if((stack.isEmpty() || stack.peek()!=ch[i])){
+                 stack.push(ch[i]);
+            str.append(ch[i]);
+            i++;
             }
             else{
-                stack.push(c);
+                stack.pop();
+                str.deleteCharAt(str.length()-1);
+                i++;
             }
+           
         }
-        StringBuilder sb=new StringBuilder();
-        for(char c: stack){
-            sb.append(c);
-        }
-        return sb.toString();
+        return str.toString();
+
         
     }
 }
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
