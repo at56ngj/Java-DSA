@@ -1,16 +1,21 @@
 class Solution {
-    public int[] dailyTemperatures(int[] arr) {
-        int[] ans = new int[arr.length];
-        Stack<Integer> stack=new Stack<>();
-        for(int i=0;i<arr.length;i++){
-            while(!(stack.isEmpty())&& arr[i]>arr[stack.peek()] ){
-                int index=stack.pop();
-               
-                ans[index]=i-index;
+    public int[] dailyTemperatures(int[] temp) {
+        int result[]=new int[temp.length];
+        Stack <Integer> stack=new Stack<>();
+        //ye stack index save kar raha hai.
+        for(int i=0;i<temp.length;i++){
+            while(!stack.isEmpty() && temp[i]>temp[stack.peek()]){
+                int idx=stack.pop();
+                result[idx]=i-idx;
             }
             stack.push(i);
+
         }
-        return  ans;
+        return result;
         
     }
 }
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
