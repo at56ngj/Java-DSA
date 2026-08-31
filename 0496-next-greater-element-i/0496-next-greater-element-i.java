@@ -1,29 +1,31 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        int arr[]=new int[nums1.length];
-        int arr2[]=new int[nums2.length];
+        int arr[]=new int[nums2.length];
+        int arr2[]=new int[nums1.length];
         Stack<Integer> stack=new Stack<>();
         for(int i=nums2.length-1;i>=0;i--){
-            while(!stack.isEmpty()&&nums2[i]>=stack.peek()){
+            while(!stack.isEmpty() && nums2[i]>stack.peek()){
                 stack.pop();
             }
             if(stack.isEmpty()){
-                arr2[i]=-1;
+                arr[i]=-1;
             }else{
-                arr2[i]=stack.peek();//ans ko array main daalo
+               arr[i]=stack.peek();
             }
-             stack.push(nums2[i]);//current ko stack main  push karo
+             stack.push(nums2[i]);
+
         }
-      
-      for(int i=0;i<nums1.length;i++){
-        for(int j=0;j<nums2.length;j++){
-            if(nums1[i]==nums2[j]){
-                arr[i]=arr2[j];
-                break;
+        //ab arr main saare elements ka next ement aa chuka hai.
+        for(int i=0;i<nums1.length;i++){
+            for(int j=0;j<nums2.length;j++){
+                if(nums1[i]==nums2[j]){
+                    arr2[i]=arr[j];
+                    break;
+                }
             }
         }
-      }
-      return arr;
+        return arr2;
+
         
     }
 }
