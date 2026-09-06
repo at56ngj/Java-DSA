@@ -4,7 +4,6 @@ class MyQueue {
 
     public MyQueue() {
         
-        
     }
     
     public void push(int x) {
@@ -13,14 +12,12 @@ class MyQueue {
     }
     
     public int pop() {
-        
-       if(outstack.isEmpty()){
+        if(outstack.isEmpty()){
         while(!instack.isEmpty()){
             outstack.push(instack.pop());
         }
        }
        return outstack.pop();
-
         
     }
     
@@ -30,11 +27,12 @@ class MyQueue {
             outstack.push(instack.pop());
         }
        }
-        return outstack.peek();
+       return outstack.peek();
+        
     }
     
     public boolean empty() {
-        return instack.isEmpty() && outstack.isEmpty();
+       return instack.isEmpty() && outstack.isEmpty();
         
     }
 }
