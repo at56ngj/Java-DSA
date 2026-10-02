@@ -1,8 +1,15 @@
 import java.util.*;
 class Solution {
-    public int findMin(int[] nums) {
-        Arrays.sort(nums);
-        return nums[0];
+    public int findMin(int[] arr) {
+        int min=arr[0];
+        for(int i=1;i<arr.length;i++){
+            if(arr[i-1]>arr[i]){
+                min=arr[i];
+                break;
+            }
+        }
+        return min;
+        
     }
 }
 
