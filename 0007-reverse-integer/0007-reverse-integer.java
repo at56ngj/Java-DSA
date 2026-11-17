@@ -1,19 +1,32 @@
 class Solution {
     public int reverse(int x) {
-        int sum=0;
-
-        while(x!=0){
-            int remain=x%10;
-            if(sum>Integer.MAX_VALUE/10 || sum<Integer.MIN_VALUE/10){
-                return 0;
-            }
-            sum=sum*10+remain;
-            x=x/10;
-
+        long num=0;
+        while(x>0){
+                int rev=x%10;
+                 num=num*10+rev;
+                    x=x/10; 
         }
+        if (num > Integer.MAX_VALUE) {         // check the reversed number
+            return 0;
+        }
+        if(x<0){
+                x=-x;
+                long ans=0;
+                while(x>0){
+                     int rev=x%10;
+                ans=ans*10+rev;
+                 x=x/10;
 
-        
-        return sum;
+                }
+                 if(-ans <Integer.MIN_VALUE){
+            return 0;
+        }
+                return (int)-ans;
+               
+            }
+       
+
+        return (int) num;
         
     }
 }
