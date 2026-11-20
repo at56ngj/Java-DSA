@@ -1,30 +1,40 @@
 class Solution {
     public String longestPalindrome(String s) {
-        String result = "";
-        
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i; j < s.length(); j++) {
-                String sub = s.substring(i, j + 1);
-                if (isPalindrome(sub) && sub.length() > result.length()) {
-                    result = sub;
+        String ans = "";   // ab tak ka sabse lamba palindrome
+
+        // har starting index try karo
+        for (int left = 0; left < s.length(); left++) {
+
+            // har ending index try karo (peeche se)
+            for (int m = s.length() - 1; m >= left; m--) {
+
+                // pehle hi chhota hai to check karne ka fayda nahi
+                if (m - left + 1 <= ans.length()) {
+                    break;
+                }
+
+                if (s.charAt(m) == s.charAt(left)) {
+                    int i = left;
+                    int j = m;
+                    boolean isPal = true;   // maan lo palindrome hai
+
+                    while (i < j) {
+                        if (s.charAt(i) != s.charAt(j)) {
+                            isPal = false;  // mismatch, palindrome nahi
+                            break;
+                        }
+                        i++;
+                        j--;
+                    }
+
+                    if (isPal) {
+                        ans = s.substring(left, m + 1);  // m include karna hai, to m + 1
+                        break;   // is left ke liye sabse lamba mil gaya
+                    }
                 }
             }
         }
-        
-        return result;
-    }
-    
-    public boolean isPalindrome(String s) {
-        int left = 0;
-        int right = s.length() - 1;
-        while (left < right) {
-            if (s.charAt(left) != s.charAt(right)) {
-                return false;
-            }
-            left++;
-            right--;
-        }
-        return true;
+        return ans;
     }
 }
 
